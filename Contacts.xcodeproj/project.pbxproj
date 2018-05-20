@@ -8,24 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		16231DD220B1AFC400880595 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16231DD120B1AFC400880595 /* AppDelegate.m */; };
-		16231DD520B1AFC400880595 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16231DD420B1AFC400880595 /* ViewController.m */; };
 		16231DD820B1AFC400880595 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16231DD620B1AFC400880595 /* Main.storyboard */; };
 		16231DDA20B1AFC600880595 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16231DD920B1AFC600880595 /* Assets.xcassets */; };
 		16231DDD20B1AFC600880595 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16231DDB20B1AFC600880595 /* LaunchScreen.storyboard */; };
 		16231DE020B1AFC600880595 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16231DDF20B1AFC600880595 /* main.m */; };
+		16231DE820B1B02800880595 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 16231DE720B1B02800880595 /* Contact.m */; };
+		16231DEB20B1B0E900880595 /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16231DEA20B1B0E900880595 /* ContactsViewController.m */; };
+		16231DED20B1B11300880595 /* contacts.json in Resources */ = {isa = PBXBuildFile; fileRef = 16231DEC20B1B11300880595 /* contacts.json */; };
+		16231DF020B1BDDB00880595 /* ContactDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16231DEF20B1BDDB00880595 /* ContactDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		16231DCD20B1AFC400880595 /* Contacts1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16231DCD20B1AFC400880595 /* Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16231DD020B1AFC400880595 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		16231DD120B1AFC400880595 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		16231DD320B1AFC400880595 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		16231DD420B1AFC400880595 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		16231DD720B1AFC400880595 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		16231DD920B1AFC600880595 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16231DDC20B1AFC600880595 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16231DDE20B1AFC600880595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16231DDF20B1AFC600880595 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16231DE620B1B02800880595 /* Contact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		16231DE720B1B02800880595 /* Contact.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		16231DE920B1B0E900880595 /* ContactsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactsViewController.h; sourceTree = "<group>"; };
+		16231DEA20B1B0E900880595 /* ContactsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactsViewController.m; sourceTree = "<group>"; };
+		16231DEC20B1B11300880595 /* contacts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = contacts.json; sourceTree = "<group>"; };
+		16231DEE20B1BDDB00880595 /* ContactDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactDetailViewController.h; sourceTree = "<group>"; };
+		16231DEF20B1BDDB00880595 /* ContactDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +50,7 @@
 		16231DC420B1AFC300880595 = {
 			isa = PBXGroup;
 			children = (
-				16231DCF20B1AFC400880595 /* Contacts1 */,
+				16231DCF20B1AFC400880595 /* Contacts */,
 				16231DCE20B1AFC400880595 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,33 +58,38 @@
 		16231DCE20B1AFC400880595 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				16231DCD20B1AFC400880595 /* Contacts1.app */,
+				16231DCD20B1AFC400880595 /* Contacts.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		16231DCF20B1AFC400880595 /* Contacts1 */ = {
+		16231DCF20B1AFC400880595 /* Contacts */ = {
 			isa = PBXGroup;
 			children = (
 				16231DD020B1AFC400880595 /* AppDelegate.h */,
 				16231DD120B1AFC400880595 /* AppDelegate.m */,
-				16231DD320B1AFC400880595 /* ViewController.h */,
-				16231DD420B1AFC400880595 /* ViewController.m */,
+				16231DE620B1B02800880595 /* Contact.h */,
+				16231DE720B1B02800880595 /* Contact.m */,
+				16231DE920B1B0E900880595 /* ContactsViewController.h */,
+				16231DEA20B1B0E900880595 /* ContactsViewController.m */,
+				16231DEE20B1BDDB00880595 /* ContactDetailViewController.h */,
+				16231DEF20B1BDDB00880595 /* ContactDetailViewController.m */,
 				16231DD620B1AFC400880595 /* Main.storyboard */,
 				16231DD920B1AFC600880595 /* Assets.xcassets */,
 				16231DDB20B1AFC600880595 /* LaunchScreen.storyboard */,
 				16231DDE20B1AFC600880595 /* Info.plist */,
+				16231DEC20B1B11300880595 /* contacts.json */,
 				16231DDF20B1AFC600880595 /* main.m */,
 			);
-			path = Contacts1;
+			path = Contacts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		16231DCC20B1AFC300880595 /* Contacts1 */ = {
+		16231DCC20B1AFC300880595 /* Contacts */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 16231DE320B1AFC600880595 /* Build configuration list for PBXNativeTarget "Contacts1" */;
+			buildConfigurationList = 16231DE320B1AFC600880595 /* Build configuration list for PBXNativeTarget "Contacts" */;
 			buildPhases = (
 				16231DC920B1AFC300880595 /* Sources */,
 				16231DCA20B1AFC300880595 /* Frameworks */,
@@ -86,9 +99,9 @@
 			);
 			dependencies = (
 			);
-			name = Contacts1;
+			name = Contacts;
 			productName = Contacts1;
-			productReference = 16231DCD20B1AFC400880595 /* Contacts1.app */;
+			productReference = 16231DCD20B1AFC400880595 /* Contacts.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +118,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 16231DC820B1AFC300880595 /* Build configuration list for PBXProject "Contacts1" */;
+			buildConfigurationList = 16231DC820B1AFC300880595 /* Build configuration list for PBXProject "Contacts" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +131,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				16231DCC20B1AFC300880595 /* Contacts1 */,
+				16231DCC20B1AFC300880595 /* Contacts */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16231DED20B1B11300880595 /* contacts.json in Resources */,
 				16231DDD20B1AFC600880595 /* LaunchScreen.storyboard in Resources */,
 				16231DDA20B1AFC600880595 /* Assets.xcassets in Resources */,
 				16231DD820B1AFC400880595 /* Main.storyboard in Resources */,
@@ -141,9 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16231DD520B1AFC400880595 /* ViewController.m in Sources */,
+				16231DE820B1B02800880595 /* Contact.m in Sources */,
+				16231DEB20B1B0E900880595 /* ContactsViewController.m in Sources */,
 				16231DE020B1AFC600880595 /* main.m in Sources */,
 				16231DD220B1AFC400880595 /* AppDelegate.m in Sources */,
+				16231DF020B1BDDB00880595 /* ContactDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,14 +301,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8V6LJ95253;
-				INFOPLIST_FILE = Contacts1/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Contacts/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sneezecookie.Contacts1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sneezecookie.Contacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,21 +318,21 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8V6LJ95253;
-				INFOPLIST_FILE = Contacts1/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Contacts/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sneezecookie.Contacts1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sneezecookie.Contacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		16231DC820B1AFC300880595 /* Build configuration list for PBXProject "Contacts1" */ = {
+		16231DC820B1AFC300880595 /* Build configuration list for PBXProject "Contacts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				16231DE120B1AFC600880595 /* Debug */,
@@ -325,7 +341,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		16231DE320B1AFC600880595 /* Build configuration list for PBXNativeTarget "Contacts1" */ = {
+		16231DE320B1AFC600880595 /* Build configuration list for PBXNativeTarget "Contacts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				16231DE420B1AFC600880595 /* Debug */,

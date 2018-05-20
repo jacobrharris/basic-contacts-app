@@ -1,0 +1,26 @@
+{
+  "contacts": [
+    {
+      "contact_id": "2c4d14da-734e-412e-b518-27ac80e30c55",
+      "first_name": "John",
+      "last_name": "Doe",
+      "phone_number": "555-555-5555",
+      "street_address_1": "123 Main St",
+      "street_address_2": "",
+      "city": "Beverly Hills",
+      "state": "CA",
+      "zip_code": "90210"
+    },
+    {
+      "contact_id": "343c152f-dbd0-4ff4-b169-4a9088595e1e",
+      "first_name": "Jane",
+      "last_name": "Doe",
+      "phone_number": "555-555-5554",
+      "street_address_1": "123 Main St",
+      "street_address_2": "",
+      "city": "Beverly Hills",
+      "state": "CA",
+      "zip_code": "90210"
+    }
+  ]
+}

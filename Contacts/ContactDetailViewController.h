@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ContactDetailViewController.h
 //  Contacts1
 //
 //  Created by Jacob Harris on 5/20/18.
@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Contact.h"
 
-@interface ViewController : UIViewController
+@interface ContactDetailViewController : UIViewController
 
+@property (nonatomic, strong) Contact *contact;
 
 @end
-
